@@ -1,11 +1,11 @@
-const {ok, equal} = require('assert')
+const { ok, strictEqual } = require('assert')
 
 test('m.uuid', () => {
   test('.uuid', () => {
-    const {uuid} = require('..')
+    const { uuid } = require('..')
 
     test('is callable', () => {
-      equal(typeof uuid, 'function')
+      strictEqual(typeof uuid, 'function')
     })
 
     test('returns RFC4122v4 compliant universally unique identifier with `Math.random`', () => {
@@ -16,10 +16,10 @@ test('m.uuid', () => {
 
 test('m.uuid/crypto', () => {
   test('.uuid', () => {
-    const {uuid} = require('../crypto')
+    const { uuid } = require('../crypto')
 
     test('is callable', () => {
-      equal(typeof uuid, 'function')
+      strictEqual(typeof uuid, 'function')
     })
 
     test('returns RFC4122v4 compliant universally unique identifier with `crypto.randomBytes`', () => {

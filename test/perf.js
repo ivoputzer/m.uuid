@@ -1,4 +1,4 @@
-const {Suite} = require('benchmark')
+const { Suite } = require('benchmark')
 
 new Suite()
   .add('math.random', require('..').uuid)
