@@ -1,4 +1,41 @@
 {
   "name": "m.guid",
-  "version": "0.0.0-draft.0"
+  "version": "0.0.1",
+  "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com>",
+  "description": "m(icro)uuid is a simple RFC4122v4 compliant uuid implementation written in es6+",
+  "keywords": [
+    "id",
+    "uuid",
+    "guid",
+    "rfc4122",
+    "v4",
+    "m.icro"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "standard": {
+    "global": [
+      "test"
+    ]
+  },
+  "scripts": {
+    "node": "node",
+    "test": "m.test"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "m.test": "0.0.57",
+    "benchmark": "^2.1.4"
+  },
+  "homepage": "https://github.com/ivoputzer/m.uuid#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivoputzer/m.uuid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivoputzer/m.uuid/issues"
+  }
 }
