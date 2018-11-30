@@ -64,5 +64,8 @@ jobs:
         repo: $TRAVIS_REPO_SLUG
         condition:
         - $NPM_RELEASE_VERSION != $(npm --silent view $PWD version)
+    after_deploy:
+      - env
+      - echo $(npm --silent view $PWD version)
 notifications:
   email: false
