@@ -1,6 +1,6 @@
 m.uuid
 ===
-**[m(icro)](https://github.com/ivoputzer/m.cro#readme)[uuid](https://github.com/ivoputzer/m.uuid) is a simple RFC4122v4 compliant uuid implementation written in es6+**
+**[m(icro)](https://github.com/ivoputzer/m.cro#readme)[uuid](https://github.com/ivoputzer/m.uuid) is a lightweight RFC4122v4 compliant uuid implementation written in es6+**
 
 [![travis](https://img.shields.io/travis/ivoputzer/m.uuid.svg?style=for-the-badge)](https://travis-ci.org/ivoputzer/m.uuid)
 [![dependencies](https://img.shields.io/badge/dependencies-none-blue.svg?style=for-the-badge&colorB=44CC11)](package.json)

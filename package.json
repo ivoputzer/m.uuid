@@ -1,8 +1,8 @@
 {
   "name": "m.uuid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com>",
-  "description": "m(icro)uuid is a simple RFC4122v4 compliant uuid implementation written in es6+",
+  "description": "m(icro)uuid is a lightweight RFC4122v4 compliant uuid implementation written in es6+",
   "keywords": [
     "id",
     "uuid",
